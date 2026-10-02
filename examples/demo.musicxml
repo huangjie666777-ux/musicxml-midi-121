@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<score-partwise version="4.0">
+  <part-list>
+    <score-part id="P1">
+      <part-name>Flute</part-name>
+      <midi-instrument id="P1-I1"><midi-program>74</midi-program></midi-instrument>
+    </score-part>
+    <score-part id="P2">
+      <part-name>Cello</part-name>
+      <midi-instrument id="P2-I1"><midi-program>43</midi-program></midi-instrument>
+    </score-part>
+  </part-list>
+  <part id="P1">
+    <measure number="1">
+      <attributes>
+        <divisions>2</divisions>
+        <key><fifths>0</fifths></key>
+        <time><beats>4</beats><beat-type>4</beat-type></time>
+      </attributes>
+      <direction>
+        <direction-type>
+          <metronome><beat-unit>quarter</beat-unit><per-minute>96</per-minute></metronome>
+        </direction-type>
+        <sound tempo="96"/>
+      </direction>
+      <note><pitch><step>C</step><octave>5</octave></pitch><duration>2</duration><voice>1</voice><tie type="start"/></note>
+      <note><pitch><step>C</step><octave>5</octave></pitch><duration>2</duration><voice>1</voice><tie type="stop"/></note>
+      <note><pitch><step>E</step><octave>5</octave></pitch><duration>2</duration><voice>1</voice></note>
+      <note><pitch><step>G</step><octave>5</octave></pitch><duration>2</duration><voice>1</voice></note>
+      <backup><duration>8</duration></backup>
+      <note><pitch><step>E</step><octave>4</octave></pitch><duration>4</duration><voice>2</voice></note>
+      <note><rest/><duration>2</duration><voice>2</voice></note>
+      <note><pitch><step>D</step><octave>4</octave></pitch><duration>2</duration><voice>2</voice></note>
+    </measure>
+    <measure number="2">
+      <note><pitch><step>C</step><octave>5</octave></pitch><duration>4</duration><voice>1</voice></note>
+      <note><pitch><step>E</step><octave>5</octave></pitch><duration>4</duration><voice>1</voice><chord/></note>
+      <note><pitch><step>G</step><octave>5</octave></pitch><duration>4</duration><voice>1</voice><chord/></note>
+      <forward><duration>4</duration></forward>
+      <note><pitch><step>F</step><octave>5</octave></pitch><duration>4</duration><voice>1</voice></note>
+    </measure>
+  </part>
+  <part id="P2">
+    <measure number="1">
+      <attributes><divisions>2</divisions></attributes>
+      <note><pitch><step>C</step><octave>3</octave></pitch><duration>8</duration><voice>1</voice></note>
+    </measure>
+    <measure number="2">
+      <note><pitch><step>G</step><octave>2</octave></pitch><duration>8</duration><voice>1</voice></note>
+    </measure>
+  </part>
+</score-partwise>
+
